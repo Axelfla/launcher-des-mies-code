@@ -1,0 +1,312 @@
+/*******************************************************************************
+ *                                                                             *
+ * Custom Theme — Glassmorphism / Accent Orange                              *
+ * Ajouté par-dessus launcher.css, ne modifie pas le fichier d'origine.       *
+ *                                                                             *
+ ******************************************************************************/
+
+:root {
+    --accent: #e8752c;
+    --accent-hover: #f18239;
+    --accent-active: #d3641f;
+    --accent-glow: rgba(232, 117, 44, 0.75);
+    --glass-bg: rgba(21, 16, 11, 0.45);
+    --glass-bg-strong: rgba(21, 16, 11, 0.65);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-blur: 16px;
+    /* Largeur de la sidebar de serveurs : s'adapte à la largeur de la
+       fenêtre entre 52px et 64px. Toutes les zones qui doivent laisser
+       la place à la sidebar (#content, #lower) réutilisent cette même
+       variable, donc elles restent toujours synchronisées avec elle. */
+    --sidebar-w: clamp(52px, 5vw, 64px);
+}
+
+/* Barre de fenêtre en haut — devient une bande en verre */
+#frameBar {
+    background: rgba(13, 9, 6, 0.35) !important;
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+/* Statut serveur (bas gauche) — carte en verre */
+#landingContainer > #lower > #left #content {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 12px 18px;
+    top: 12px;
+}
+#server_status_wrapper[online] #server_status_dot {
+    background: #4caf6a;
+    box-shadow: 0px 0px 10px #4caf6a;
+}
+
+/* Bouton actualités (bas centre) — pilule en verre */
+#landingContainer > #lower > #center #content {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    padding: 6px 24px;
+}
+#newsButton:hover #newsButtonText,
+#newsButton:focus #newsButtonText {
+    color: var(--accent);
+    text-shadow: 0px 0px 16px var(--accent-glow), 0px 0px 16px var(--accent-glow);
+}
+#newsButton:hover #newsButtonSVG,
+#newsButton:focus #newsButtonSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px var(--accent));
+}
+
+/* Zone de lancement (bas droite) — carte en verre + bouton plein orange */
+#landingContainer > #lower > #right #launch_content {
+    align-items: center;
+    background: var(--glass-bg-strong);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+#launch_button {
+    color: #fff;
+    background: var(--accent);
+    border-radius: 8px;
+    padding: 8px 22px !important;
+    text-shadow: none;
+    box-shadow: 0px 4px 18px var(--accent-glow);
+}
+#launch_button:hover,
+#launch_button:focus {
+    background: var(--accent-hover);
+    text-shadow: none;
+}
+#launch_button:active {
+    background: var(--accent-active);
+    color: #fff;
+    text-shadow: none;
+}
+#launch_button:disabled {
+    background: rgba(232, 117, 44, 0.35);
+    color: rgba(255, 255, 255, 0.65);
+}
+#server_selection_button {
+    color: var(--accent);
+}
+#server_selection_button:hover,
+#server_selection_button:focus {
+    text-shadow: 0px 0px 16px var(--accent-glow), 0px 0px 16px var(--accent-glow);
+}
+
+/* Détails de progression (pendant le lancement) — même carte en verre */
+#landingContainer > #lower > #right #launch_details {
+    background: var(--glass-bg-strong);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+#launch_progress[value]::-webkit-progress-value {
+    background-color: var(--accent);
+}
+
+/* Icônes qui restent lisibles au-dessus de l'image de fond */
+#settingsMediaButton,
+.mediaURL {
+    -webkit-filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Sidebar des serveurs — icônes chargées depuis le distribution.json         *
+ *                                                                             *
+ ******************************************************************************/
+
+/* Barre fixée sur toute la hauteur de la fenêtre, sur le côté gauche.
+   Elle reste visible même quand #upper/#lower glissent (ouverture des
+   actualités), comme dans le mockup d'origine. Sa largeur suit la
+   fenêtre (voir --sidebar-w) pour rester correcte quelle que soit la
+   taille de la fenêtre. */
+#serverSidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(--sidebar-w);
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-backdrop-filter: blur(30px) saturate(140%);
+    backdrop-filter: blur(30px) saturate(140%);
+    border-right: 1px solid var(--glass-border);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+/* Conteneur des icônes de serveur : centré verticalement et horizontalement
+   sur la barre, quel que soit le nombre de serveurs déclarés dans le
+   distribution.json. */
+.server-nav {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.server-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.server-nav-btn {
+    flex-shrink: 0;
+    width: clamp(32px, 4vw, 40px);
+    height: clamp(32px, 4vw, 40px);
+    padding: 0;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+    overflow: hidden;
+}
+.server-nav-fallback {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-dim, #d8d0c6);
+    user-select: none;
+}
+.server-nav-btn:hover {
+    transform: translateY(-1px);
+}
+.server-nav-btn img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+    pointer-events: none;
+}
+.server-nav-btn.active {
+    border-color: var(--accent);
+    background: var(--accent);
+    box-shadow: 0 0 18px var(--accent-glow), 0 0 4px var(--accent-glow);
+}
+
+.server-nav-bottom {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Bouton réglages, seul élément resté en bas de la sidebar (le logo a
+   été déplacé en haut à droite, voir plus bas). */
+#serverSidebar #settingsMediaContainer {
+    position: static;
+    width: 34px;
+    height: 34px;
+}
+#serverSidebar #settingsMediaButton {
+    width: 34px;
+    height: 34px;
+}
+
+/* L'ancienne colonne de gauche (sceau) n'est plus utilisée : elle est
+   remplacée par la sidebar fixe ci-dessus. On réserve la place via un
+   padding sur le conteneur global (et non une margin sur ses enfants,
+   qui élargirait le contenu au-delà de la fenêtre et ferait apparaître
+   une barre de défilement horizontale). */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#landingContainer {
+    padding-left: var(--sidebar-w);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#landingContainer > #upper > #left {
+    display: none;
+}
+/* #left étant masqué, #content récupère l'espace qu'il libérait. */
+#landingContainer > #upper > #content {
+    width: auto;
+    flex: 1 1 auto;
+}
+
+/* Titre du serveur sélectionné, affiché dans le hero (zone #upper #content).
+   La taille du texte et les marges suivent la taille de la fenêtre. */
+#landingContainer > #upper > #content {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 clamp(18px, 4vh, 36px) clamp(20px, 4vw, 40px);
+    box-sizing: border-box;
+    min-width: 0;
+}
+#heroServerName {
+    margin: 0;
+    font-size: clamp(20px, 2.6vw, 34px);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #fff;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.55);
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+/* Logo (sceau / indicateur de mise à jour), en haut de la sidebar. */
+#serverSidebar #image_seal_container {
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 0;
+    width: 34px;
+    height: 34px;
+}
+#serverSidebar #image_seal {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+}
+#serverSidebar #updateAvailableTooltip {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Adaptation aux petites fenêtres : on resserre les marges et les
+   tailles de police plutôt que de casser la mise en page. */
+@media (max-width: 900px) {
+    #landingContainer > #upper > #right {
+        width: 20%;
+    }
+    #user_text {
+        min-width: 0;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

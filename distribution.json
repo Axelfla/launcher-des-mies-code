@@ -1,0 +1,3095 @@
+{
+  "version": "1.0.0",
+  "rss": "https://axelfla.github.io/launcher-des-mies-craft/rss.xml",
+  "servers": [
+    {
+      "id": "serveur-non-modée-26.1.2",
+      "name": "serveur-non-modée (Minecraft 26.1.2)",
+      "description": "serveur-non-modée Running Minecraft 26.1.2 (Fabric v0.19.3)",
+      "icon": "https://axelfla.github.io/launcher-des-mies-craft/servers/serveur-non-mod%C3%A9e-26.1.2/1e768b5c-32a9-4e4d-b19b-e391f91e9500-profile_image-70x70%20(1).png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "26.1.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.1.2-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2782,
+                "MD5": "eec8e5ef1010680a0acb30352fd4fa1e",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/versions/26.1.2-fabric-0.19.3/26.1.2-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "de.maxhenkel:voicechat:2.6.22+26.1.2@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5526001,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/serveur-non-mod%C3%A9e-26.1.2/fabricmods/required/voicechat-fabric-2.6.22+26.1.2.jar",
+            "MD5": "cbc260c24ce559bc2d096e43646478c1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Serveur-survie-moddé-1.21.1",
+      "name": "Serveur-survie-moddé (Minecraft 1.21.1)",
+      "description": "Serveur-survie-moddé Running Minecraft 1.21.1 (NeoForge v21.1.248)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.1.248:universal",
+          "name": "NeoForge (universal jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 3551268,
+            "MD5": "7f785a4d65644293f4c591b5109788ee",
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/neoforge/21.1.248/neoforge-21.1.248-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "21.1.248",
+              "name": "NeoForge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 21253,
+                "MD5": "13fc4e83f3467ca47f2040f0f93001da",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/versions/1.21.1-neoforge-21.1.248/1.21.1-neoforge-21.1.248.json"
+              }
+            },
+            {
+              "id": "net.neoforged:neoforge:21.1.248:client",
+              "name": "NeoForge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 5675624,
+                "MD5": "0fe7826ecbb207c9be2ffd718828f559",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/neoforge/21.1.248/neoforge-21.1.248-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:srg",
+              "name": "NeoForge (minecraft client (srg))",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 18725656,
+                "MD5": "24d790d385dff0146020f1875b969e52",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:extra",
+              "name": "NeoForge (minecraft client (extra))",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 12372293,
+                "MD5": "973b9700852b66bb7b74df75b0113db2",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.neoforged.fancymodloader:earlydisplay:4.0.43",
+              "name": "NeoForge (earlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 261719,
+                "MD5": "282b24cc474417af1db04ef5ecf12d8b",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar"
+              },
+              "classpath": true
+            },
+            {
+              "id": "net.neoforged.fancymodloader:loader:4.0.43",
+              "name": "NeoForge (loader)",
+              "type": "Library",
+              "artifact": {
+                "size": 505633,
+                "MD5": "a5fdf15a1e832adb1d559703824646ae",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar"
+              },
+              "classpath": true
+            },
+            {
+              "id": "net.neoforged.accesstransformers:at-modlauncher:10.0.1",
+              "name": "NeoForge (at-modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 2347,
+                "MD5": "f65434f122b97b1ac8fe56ff54873b5f",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:accesstransformers:10.0.1",
+              "name": "NeoForge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 67234,
+                "MD5": "3a01a09a2b0900381dce48e118882849",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:bus:8.0.5",
+              "name": "NeoForge (bus)",
+              "type": "Library",
+              "artifact": {
+                "size": 30340,
+                "MD5": "95eee080d9de7cb764adcb8fa2ecf3fb",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:coremods:7.0.3",
+              "name": "NeoForge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 22659,
+                "MD5": "4527abf6b7116dae1c2178f7beab0ba2",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:11.0.5",
+              "name": "NeoForge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 116486,
+                "MD5": "70fa994f64b2620d20dc325bab758d1b",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:mergetool:2.0.0:api",
+              "name": "NeoForge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2550,
+                "MD5": "818b398f65b8dc5af802b721fd1d0b56",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.8.3",
+              "name": "NeoForge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 39516,
+                "MD5": "71c9f7b86422f206c0d78c1a0600fd3a",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.8.3",
+              "name": "NeoForge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 382911,
+                "MD5": "a69db71d5c9c274ff08f175d7c12cb1a",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarSelector:0.4.1",
+              "name": "NeoForge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17168,
+                "MD5": "20d1fe8972655189f69845554ee1a4d1",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarMetadata:0.4.1",
+              "name": "NeoForge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15648,
+                "MD5": "c2f30969dd8b1dc8e3f78c731bd2c5c8",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "NeoForge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "NeoForge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.3.0",
+              "name": "NeoForge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 16949,
+                "MD5": "179d3abaf9736dbd8fbd4fa98e1c6ea1",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
+              "name": "NeoForge (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494751,
+                "MD5": "4808c070bf19415a5cb4a0cb5e569b12",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "NeoForge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.14.0",
+              "name": "NeoForge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 657952,
+                "MD5": "4e5c3f5e6b0b965ef241d7d72ac8971f",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:2.0.2",
+              "name": "NeoForge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 11116,
+                "MD5": "169bd8c006e69d83267466e311d4049d",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:securejarhandler:3.0.8",
+              "name": "NeoForge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 103765,
+                "MD5": "eb0d5290a2681c2dbeb8088b82e0fbf9",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "NeoForge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "NeoForge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "NeoForge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "NeoForge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "NeoForge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarFileSystems:0.4.1",
+              "name": "NeoForge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 31807,
+                "MD5": "8d75021e5aeb04652b4b9ae3df500b9e",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "NeoForge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.slf4j:slf4j-api:2.0.9",
+              "name": "NeoForge (slf4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 64579,
+                "MD5": "45630e54b0f0ac2b3c80462515ad8fda",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.13.1",
+              "name": "NeoForge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 326305,
+                "MD5": "dd465ddb2a8dbf69eb6c94e69a0d5f0f",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+              }
+            },
+            {
+              "id": "com.mojang:logging:1.2.7",
+              "name": "NeoForge (logging)",
+              "type": "Library",
+              "artifact": {
+                "size": 15343,
+                "MD5": "d01ea99740509a58222a426cc36f5456",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/mojang/logging/1.2.7/logging-1.2.7.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1",
+              "name": "NeoForge (log4j-slf4j2-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 27364,
+                "MD5": "82cc94f378ffb853efe084ee9bf4c463",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.22.1",
+              "name": "NeoForge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1900022,
+                "MD5": "b5987ee449d4be4244e2e214683c45af",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.22.1",
+              "name": "NeoForge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 335001,
+                "MD5": "27db0eb89ae965179480df00d8d1cf03",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.20.0",
+              "name": "NeoForge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 171052,
+                "MD5": "9ece57ca56a1688d1d09fe2c48e7a292",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.20.0",
+              "name": "NeoForge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 228481,
+                "MD5": "e45dace437743e6b5e75c81eb455fd3e",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+              }
+            },
+            {
+              "id": "commons-io:commons-io:2.15.1",
+              "name": "NeoForge (commons-io)",
+              "type": "Library",
+              "artifact": {
+                "size": 501218,
+                "MD5": "84351f7991a0e6722f00e96a4ccc376f",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:srgutils:0.4.15",
+              "name": "NeoForge (srgutils)",
+              "type": "Library",
+              "artifact": {
+                "size": 69393,
+                "MD5": "79812fd073afe1c046bc1ea46ad28095",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:32.1.2-jre",
+              "name": "NeoForge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 3041591,
+                "MD5": "5fe031b3b35ed56182478811a931d617",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:failureaccess:1.0.1",
+              "name": "NeoForge (failureaccess)",
+              "type": "Library",
+              "artifact": {
+                "size": 4617,
+                "MD5": "091883993ef5bfa91da01dcc8fc52236",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+              "name": "NeoForge (listenablefuture)",
+              "type": "Library",
+              "artifact": {
+                "size": 2199,
+                "MD5": "d094c22570d65e132c19cea5d352e381",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+              }
+            },
+            {
+              "id": "com.google.code.findbugs:jsr305:3.0.2",
+              "name": "NeoForge (jsr305)",
+              "type": "Library",
+              "artifact": {
+                "size": 19936,
+                "MD5": "dd83accb899363c32b07d7a1b2e4ce40",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+              }
+            },
+            {
+              "id": "org.checkerframework:checker-qual:3.33.0",
+              "name": "NeoForge (checker-qual)",
+              "type": "Library",
+              "artifact": {
+                "size": 223979,
+                "MD5": "fc9418b779d9d57dcd52197006cbdb9b",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
+              }
+            },
+            {
+              "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+              "name": "NeoForge (error_prone_annotations)",
+              "type": "Library",
+              "artifact": {
+                "size": 16017,
+                "MD5": "64145d0e7fee5a69ed7b84cf402de998",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+              }
+            },
+            {
+              "id": "com.google.j2objc:j2objc-annotations:2.8",
+              "name": "NeoForge (j2objc-annotations)",
+              "type": "Library",
+              "artifact": {
+                "size": 9301,
+                "MD5": "c50af69b704dc91050efb98e0dff66d1",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
+              }
+            },
+            {
+              "id": "com.google.code.gson:gson:2.10.1",
+              "name": "NeoForge (gson)",
+              "type": "Library",
+              "artifact": {
+                "size": 283367,
+                "MD5": "df6097815738cb31fc56391553210843",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+              }
+            },
+            {
+              "id": "org.codehaus.plexus:plexus-utils:3.3.0",
+              "name": "NeoForge (plexus-utils)",
+              "type": "Library",
+              "artifact": {
+                "size": 263253,
+                "MD5": "3ae76ff0195ada460d495efe1fb50d17",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
+              }
+            },
+            {
+              "id": "com.machinezoo.noexception:noexception:1.7.1",
+              "name": "NeoForge (noexception)",
+              "type": "Library",
+              "artifact": {
+                "size": 250861,
+                "MD5": "fcc3e4df4990088c964f687b62f7c448",
+                "url": "https://axelfla.github.io/launcher-des-mies-craft/repo/lib/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:autoreconnectrf:neoforge-1.21-0.6.0@jar",
+          "name": "Autoreconnectrf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 80440,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/autoreconnectrf-neoforge-1.21-0.6.0.jar",
+            "MD5": "1d365b7f397f88db9d639ca489d6ebf2"
+          }
+        },
+        {
+          "id": "generated.forgemod:balm:neoforge-1.21.1-21.0.65@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 783793,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/balm-neoforge-1.21.1-21.0.65.jar",
+            "MD5": "ffd35f57254160816b17db7e66f196a8"
+          }
+        },
+        {
+          "id": "generated.forgemod:betterf3:11.0.3-NeoForge-1.21.1@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 481646,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+            "MD5": "ece6a3a01373146d2f351ba721e0083d"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_claims:2.1.4@jar",
+          "name": "Claims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 701729,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/claims-2.1.4-[1.21-1.21.1].jar",
+            "MD5": "19ddaf300316e2d9819def7d7f39f849"
+          }
+        },
+        {
+          "id": "generated.forgemod:cloth:config-15.0.140-neoforge@jar",
+          "name": "Cloth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1163890,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/cloth-config-15.0.140-neoforge.jar",
+            "MD5": "4c3757160403fcccb8ad468c2ea22862"
+          }
+        },
+        {
+          "id": "com.natamus:collective:8.39@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1061931,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/collective-1.21.1-8.39.jar",
+            "MD5": "7ae605279aacf6ae233bb1aafe2775c4"
+          }
+        },
+        {
+          "id": "generated.forgemod:create:1.21.1-6.0.10@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19123767,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/create-1.21.1-6.0.10.jar",
+            "MD5": "179189c52b45a469e683570be4e77188"
+          }
+        },
+        {
+          "id": "generated.forgemod:entityculling:1.10.5@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1585287,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/entityculling-neoforge-1.10.5-mc1.21.1.jar",
+            "MD5": "efb6e5638cd09578c0aaaa396c9bfa84"
+          }
+        },
+        {
+          "id": "generated.forgemod:jei:1.21.1-neoforge-19.44.0.405@jar",
+          "name": "Jei",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1699520,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/jei-1.21.1-neoforge-19.44.0.405.jar",
+            "MD5": "229c8ee654715c58e14e411cb1ed5df1"
+          }
+        },
+        {
+          "id": "generated.forgemod:lithium:neoforge-0.15.4+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 774220,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/lithium-neoforge-0.15.4+mc1.21.1.jar",
+            "MD5": "969860e6a6ebe4dc2e2154b56f05483e"
+          }
+        },
+        {
+          "id": "generated.forgemod:packmenu:1.21.1-7.0.4@jar",
+          "name": "PackMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 536228,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/PackMenu-1.21.1-7.0.4.jar",
+            "MD5": "eee9305ffd1b892dd36fc515d57b9533"
+          }
+        },
+        {
+          "id": "generated.forgemod:placebo:1.21.1-9.9.2@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 324058,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/Placebo-1.21.1-9.9.2.jar",
+            "MD5": "208b373fb2bdc703cdd2e087753ed859"
+          }
+        },
+        {
+          "id": "generated.forgemod:screenshotgallery:neoforge-2.0@jar",
+          "name": "Screenshotgallery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 93040,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/screenshotgallery-neoforge-2.0.jar",
+            "MD5": "ec89584caad602933bf8a97d7f0c9cd1"
+          }
+        },
+        {
+          "id": "generated.forgemod:simplehomes:neoforge-1.21.1-1.0.0@jar",
+          "name": "Simplehomes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11593,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/simplehomes-neoforge-1.21.1-1.0.0.jar",
+            "MD5": "3fecabeff309ab1ba676cca6e6be775e"
+          }
+        },
+        {
+          "id": "com.natamus:simplemenu:2.0@jar",
+          "name": "Simple Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85097,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/simplemenu-1.21.1-2.0.jar",
+            "MD5": "3685fc3a14872928615a1259405eede4"
+          }
+        },
+        {
+          "id": "generated.forgemod:simplesplashscreen:NeoForge-1.21-1.3.2@jar",
+          "name": "SimpleSplashScreen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2633882,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/SimpleSplashScreen-NeoForge-1.21-1.3.2.jar",
+            "MD5": "249bac02354ea5876a8e05fce77d592b"
+          }
+        },
+        {
+          "id": "generated.forgemod:sodium:neoforge-0.8.12+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1291418,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/sodium-neoforge-0.8.12+mc1.21.1.jar",
+            "MD5": "c0d728fccffb8365ba45e6ae4b15e5cc"
+          }
+        },
+        {
+          "id": "generated.forgemod:sophisticatedbackpacks:1.21.1-3.25.78.2107@jar",
+          "name": "Sophisticatedbackpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1172245,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/sophisticatedbackpacks-1.21.1-3.25.78.2107.jar",
+            "MD5": "f26dd6193a2540a293bb70e1bdae415c"
+          }
+        },
+        {
+          "id": "generated.forgemod:sophisticatedcore:1.21.1-1.4.90.2299@jar",
+          "name": "Sophisticatedcore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1687195,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/sophisticatedcore-1.21.1-1.4.90.2299.jar",
+            "MD5": "ad27add0e7a4b473d0ef7e7ab6278899"
+          }
+        },
+        {
+          "id": "generated.forgemod:sweconm:1.21.1-1.2.1@jar",
+          "name": "Sweconm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 394327,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/sweconm-1.21.1-1.2.1.jar",
+            "MD5": "db5735d91dcc6507ee8bc3ef57074cd1"
+          }
+        },
+        {
+          "id": "generated.forgemod:tpa:neoforge-1.21-2.0.0@jar",
+          "name": "Tpa",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39993,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/tpa-neoforge-1.21-2.0.0.jar",
+            "MD5": "193ef19c3526e6ccc9aa3e4accd87ac6"
+          }
+        },
+        {
+          "id": "generated.forgemod:voicechat:neoforge-1.21.1-2.6.22@jar",
+          "name": "Voicechat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4918442,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/voicechat-neoforge-1.21.1-2.6.22.jar",
+            "MD5": "f2c1f0eb15d2fb2a8cf8a0040282df51"
+          }
+        },
+        {
+          "id": "generated.forgemod:waystones:neoforge-1.21.1-21.1.40@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1210134,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/forgemods/required/waystones-neoforge-1.21.1-21.1.40.jar",
+            "MD5": "52815254ae9e0c3490a39a24bd94c8ef"
+          }
+        },
+        {
+          "id": "autoreconnectrf.json",
+          "name": "autoreconnectrf.json",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/autoreconnectrf.json",
+            "MD5": "7288223b3aa5c81ea604cb441ce9ec5b",
+            "path": "config/autoreconnectrf.json"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2471,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/collective.json5",
+            "MD5": "7283fbc343c15ada551964030d57ea71",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4795,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/create-client.toml",
+            "MD5": "1381fb47656ef79054dddcaffce4ab9e",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/create-common.toml",
+            "MD5": "9dabf53d32493d67b0d8985fb72ad083",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "create-server.toml",
+          "name": "create-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 16890,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/create-server.toml",
+            "MD5": "e84152b02fdded18eedb9bb7eb4a3f41",
+            "path": "config/create-server.toml"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 2228,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/entityculling.json",
+            "MD5": "da0e5b077b77efa3249c47e9b2e5a4ae",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "flywheel-client-1.toml.bak",
+          "name": "flywheel-client-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 636,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/flywheel-client-1.toml.bak",
+            "MD5": "ce84829633b8214fdd21d488a563e449",
+            "path": "config/flywheel-client-1.toml.bak"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 637,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/flywheel-client.toml",
+            "MD5": "386a39e6bfab0adbc4945680e5b202fb",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1519,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/fml.toml",
+            "MD5": "924096ea7a9b0ab6da437f62eb6c549c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 282,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/iris.properties",
+            "MD5": "30428026a5e2efb9da6391e8d32e9e2a",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "blacklist.json",
+          "name": "blacklist.json",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/blacklist.json",
+            "MD5": "78f1a39821342258f73e542d9ea40e0f",
+            "path": "config/jei/blacklist.json"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "07a3e00d3564669e0d5b75ae434d8499",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "0328cc64f29f41e751136fade109eaff",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 12615,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/jei-client.ini",
+            "MD5": "6688b5327c937a543aa36538c00fb388",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1362,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/jei-colors.ini",
+            "MD5": "2b1d073ff360c11353f0079b7539cb2e",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/jei-debug.ini",
+            "MD5": "2f0b31fe55701f6908bcd0bc6bad9497",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 529,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "1897446d74515dd776ff8b5b34e2e57b",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 762,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "a7d38e60bb7e3b57242989958c88aea4",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-server.toml",
+          "name": "jei-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 324,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/jei-server.toml",
+            "MD5": "6912479d1f35b27783befe8326720922",
+            "path": "config/jei-server.toml"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/lithium.properties",
+            "MD5": "65a61a8f2201e0a571d48a7f0295da19",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "neoforge-client.toml",
+          "name": "neoforge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 578,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/neoforge-client.toml",
+            "MD5": "7f81c16ea3d467da83df18250f772149",
+            "path": "config/neoforge-client.toml"
+          }
+        },
+        {
+          "id": "neoforge-common.toml",
+          "name": "neoforge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 772,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/neoforge-common.toml",
+            "MD5": "914110a675baa858ef6725e3f56e513c",
+            "path": "config/neoforge-common.toml"
+          }
+        },
+        {
+          "id": "neoforge-server.toml",
+          "name": "neoforge-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1177,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/neoforge-server.toml",
+            "MD5": "5fad417d8fbff12e98bf3bbaa3782864",
+            "path": "config/neoforge-server.toml"
+          }
+        },
+        {
+          "id": "packmenu.cfg",
+          "name": "packmenu.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4293,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/packmenu.cfg",
+            "MD5": "3d4110c10585478351a1fe8ede6ef0e3",
+            "path": "config/packmenu.cfg"
+          }
+        },
+        {
+          "id": "placebo.cfg",
+          "name": "placebo.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 495,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/placebo.cfg",
+            "MD5": "4b7cc2ff78cad0c1c45e8ec87d96c6b5",
+            "path": "config/placebo.cfg"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 635,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/ponder-client.toml",
+            "MD5": "a71defd616367abffa6e71a2d3b64b48",
+            "path": "config/ponder-client.toml"
+          }
+        },
+        {
+          "id": "screenshotgallery.json",
+          "name": "screenshotgallery.json",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/screenshotgallery.json",
+            "MD5": "25005cef9c955f5238f99668fc5276b6",
+            "path": "config/screenshotgallery.json"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 8130,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu/background/background.png",
+            "MD5": "536f9633915dbd10d9d40f26de21e6ff",
+            "path": "config/simplemenu/background/background.png"
+          }
+        },
+        {
+          "id": "icon_16x16.png",
+          "name": "icon_16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 768,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu/icon/icon_16x16.png",
+            "MD5": "2dc40fc94365ee9470dfe6584269dec6",
+            "path": "config/simplemenu/icon/icon_16x16.png"
+          }
+        },
+        {
+          "id": "icon_32x32.png",
+          "name": "icon_32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 1998,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu/icon/icon_32x32.png",
+            "MD5": "986e2c559aae341f6424f98789f8486a",
+            "path": "config/simplemenu/icon/icon_32x32.png"
+          }
+        },
+        {
+          "id": "edition.png",
+          "name": "edition.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu/logo/edition.png",
+            "MD5": "2443c40a466ff2ea27dc3532c3467072",
+            "path": "config/simplemenu/logo/edition.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 136052,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu/logo/logo.png",
+            "MD5": "198cb5b33b20b7db9d248812f1c24ffd",
+            "path": "config/simplemenu/logo/logo.png"
+          }
+        },
+        {
+          "id": "simplemenu.json5",
+          "name": "simplemenu.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2403,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplemenu.json5",
+            "MD5": "f53ec7635d59ab353f25a6007ecb0ae4",
+            "path": "config/simplemenu.json5"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 995706,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen/background.png",
+            "MD5": "5fcd0586be1ee7663c6efabfb03dca24",
+            "path": "config/simplesplashscreen/background.png"
+          }
+        },
+        {
+          "id": "mojangstudios.png",
+          "name": "mojangstudios.png",
+          "type": "File",
+          "artifact": {
+            "size": 99303,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen/mojangstudios.png",
+            "MD5": "4d37dabed3f8ad7d52c3d705b030f365",
+            "path": "config/simplesplashscreen/mojangstudios.png"
+          }
+        },
+        {
+          "id": "mojank.png",
+          "name": "mojank.png",
+          "type": "File",
+          "artifact": {
+            "size": 50517,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen/mojank.png",
+            "MD5": "973c913f0a82de6fce163dda091000d6",
+            "path": "config/simplesplashscreen/mojank.png"
+          }
+        },
+        {
+          "id": "progressbar.png",
+          "name": "progressbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen/progressbar.png",
+            "MD5": "d345e0c48a128b83b7ae724c20e4b5aa",
+            "path": "config/simplesplashscreen/progressbar.png"
+          }
+        },
+        {
+          "id": "progressbar_background.png",
+          "name": "progressbar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 239,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen/progressbar_background.png",
+            "MD5": "4bfcd281f4125bac872b0b1bb9a60f91",
+            "path": "config/simplesplashscreen/progressbar_background.png"
+          }
+        },
+        {
+          "id": "simplesplashscreen.json5",
+          "name": "simplesplashscreen.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1011,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/simplesplashscreen.json5",
+            "MD5": "8273900cff9fa77382515dc7607f84cb",
+            "path": "config/simplesplashscreen.json5"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 2137,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sodium-extra-options.json",
+            "MD5": "f92ebf2ebc08bcfe74cfd2c86e423633",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "f3a777fd7400fcdfeebb3a8ee04ae0b3",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 762,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sodium-options.json",
+            "MD5": "1c29f9b0db2cc03bd082703386305e97",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-common.toml",
+          "name": "sophisticatedbackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sophisticatedbackpacks-common.toml",
+            "MD5": "3c220b8881045a5364a3a8d7395974a8",
+            "path": "config/sophisticatedbackpacks-common.toml"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-server.toml",
+          "name": "sophisticatedbackpacks-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 24153,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sophisticatedbackpacks-server.toml",
+            "MD5": "51f5e0dc92ec9047134538c44400e37b",
+            "path": "config/sophisticatedbackpacks-server.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-client.toml",
+          "name": "sophisticatedcore-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 478,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sophisticatedcore-client.toml",
+            "MD5": "3874e6398ee08a5f59218ed86fc534bb",
+            "path": "config/sophisticatedcore-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-common.toml",
+          "name": "sophisticatedcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3945,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sophisticatedcore-common.toml",
+            "MD5": "f6c43fa29fb97cf5473a04a068c22468",
+            "path": "config/sophisticatedcore-common.toml"
+          }
+        },
+        {
+          "id": "sweconm-common.toml",
+          "name": "sweconm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2554,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/sweconm-common.toml",
+            "MD5": "bb4688002c4b16d9fd9177de9f1667d1",
+            "path": "config/sweconm-common.toml"
+          }
+        },
+        {
+          "id": "configuration.toml",
+          "name": "configuration.toml",
+          "type": "File",
+          "artifact": {
+            "size": 606,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/TPA/config/configuration.toml",
+            "MD5": "7e163bbd3c87a4523801a5303077cc85",
+            "path": "config/TPA/config/configuration.toml"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/transition.json",
+            "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/trender.json",
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5063,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "3d30d9ed3b42fa030b6447d03135748e",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3072,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "fb0c18824b2d01ddc105852defd63a60",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "waystones-common.toml",
+          "name": "waystones-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6691,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/config/waystones-common.toml",
+            "MD5": "d75bf46006e4b0859f354dbc75206d1c",
+            "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "effect_background.png",
+          "name": "effect_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 132,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/effect_background.png",
+            "MD5": "0bbc7c66967d964013a0d10135d82d07",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/effect_background.png"
+          }
+        },
+        {
+          "id": "effect_background_ambient.png",
+          "name": "effect_background_ambient.png",
+          "type": "File",
+          "artifact": {
+            "size": 132,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/effect_background_ambient.png",
+            "MD5": "9a7200b033fc9e86d29ad317276013a3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/effect_background_ambient.png"
+          }
+        },
+        {
+          "id": "experience_bar_background.png",
+          "name": "experience_bar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/experience_bar_background.png",
+            "MD5": "cfe6665eaf6fb499cd97110e3ac333a8",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/experience_bar_background.png"
+          }
+        },
+        {
+          "id": "experience_bar_progress.png",
+          "name": "experience_bar_progress.png",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/experience_bar_progress.png",
+            "MD5": "ca27c8f4d5cc38f1faa9e0711d90264c",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/experience_bar_progress.png"
+          }
+        },
+        {
+          "id": "food_empty.png",
+          "name": "food_empty.png",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_empty.png",
+            "MD5": "cbb5bc296198240d20d5fdc5dfbf3586",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_empty.png"
+          }
+        },
+        {
+          "id": "food_empty_hunger.png",
+          "name": "food_empty_hunger.png",
+          "type": "File",
+          "artifact": {
+            "size": 339,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_empty_hunger.png",
+            "MD5": "64a093e4c022592ad9471ebf56b36a9e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_empty_hunger.png"
+          }
+        },
+        {
+          "id": "food_full.png",
+          "name": "food_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_full.png",
+            "MD5": "13e8823d2185af6b6fc52a211c540f03",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_full.png"
+          }
+        },
+        {
+          "id": "food_full_hunger.png",
+          "name": "food_full_hunger.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_full_hunger.png",
+            "MD5": "6ec8d8a91a1f99f6933aa78dfb257b00",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_full_hunger.png"
+          }
+        },
+        {
+          "id": "food_half.png",
+          "name": "food_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 204,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_half.png",
+            "MD5": "b44796bb04e2ad969e4b695057892d27",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_half.png"
+          }
+        },
+        {
+          "id": "food_half_hunger.png",
+          "name": "food_half_hunger.png",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_half_hunger.png",
+            "MD5": "5b55f58eaf9d9d1b3b6f37fd6a6df995",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/food_half_hunger.png"
+          }
+        },
+        {
+          "id": "absorbing_full.png",
+          "name": "absorbing_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 220,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full.png",
+            "MD5": "a5a4401c9539ee4f70d48c4a5ede2de4",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full.png"
+          }
+        },
+        {
+          "id": "absorbing_full_blinking.png",
+          "name": "absorbing_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full_blinking.png",
+            "MD5": "80b2083811e00cf9bedb17535efffe1b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full_blinking.png"
+          }
+        },
+        {
+          "id": "absorbing_half.png",
+          "name": "absorbing_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half.png",
+            "MD5": "6d73440a80bbba16251ca453740c62bb",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half.png"
+          }
+        },
+        {
+          "id": "absorbing_half_blinking.png",
+          "name": "absorbing_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half_blinking.png",
+            "MD5": "f13c56e41115791ad3018db7aaa25fc3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half_blinking.png"
+          }
+        },
+        {
+          "id": "absorbing_hardcore_full.png",
+          "name": "absorbing_hardcore_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 220,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full.png",
+            "MD5": "a5a4401c9539ee4f70d48c4a5ede2de4",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full.png"
+          }
+        },
+        {
+          "id": "absorbing_hardcore_full_blinking.png",
+          "name": "absorbing_hardcore_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png",
+            "MD5": "80b2083811e00cf9bedb17535efffe1b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png"
+          }
+        },
+        {
+          "id": "absorbing_hardcore_half.png",
+          "name": "absorbing_hardcore_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half.png",
+            "MD5": "6d73440a80bbba16251ca453740c62bb",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half.png"
+          }
+        },
+        {
+          "id": "absorbing_hardcore_half_blinking.png",
+          "name": "absorbing_hardcore_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png",
+            "MD5": "f13c56e41115791ad3018db7aaa25fc3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png"
+          }
+        },
+        {
+          "id": "container.png",
+          "name": "container.png",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container.png",
+            "MD5": "52ee01b35c179b7445638eaf66e81d44",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container.png"
+          }
+        },
+        {
+          "id": "container_blinking.png",
+          "name": "container_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_blinking.png",
+            "MD5": "a8ec52b00465437406dd3e3e8f24f6c3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_blinking.png"
+          }
+        },
+        {
+          "id": "container_hardcore.png",
+          "name": "container_hardcore.png",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore.png",
+            "MD5": "52ee01b35c179b7445638eaf66e81d44",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore.png"
+          }
+        },
+        {
+          "id": "container_hardcore_blinking.png",
+          "name": "container_hardcore_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore_blinking.png",
+            "MD5": "a8ec52b00465437406dd3e3e8f24f6c3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore_blinking.png"
+          }
+        },
+        {
+          "id": "frozen_full.png",
+          "name": "frozen_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 227,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_full.png",
+            "MD5": "68b8f1b004b09bf431cee29e98f1eca4",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_full.png"
+          }
+        },
+        {
+          "id": "frozen_full_blinking.png",
+          "name": "frozen_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 204,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_full_blinking.png",
+            "MD5": "b11350cd3690695b0b4e938c20defb62",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_full_blinking.png"
+          }
+        },
+        {
+          "id": "frozen_half.png",
+          "name": "frozen_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_half.png",
+            "MD5": "3bb74daa636b648381e9101b81751d92",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_half.png"
+          }
+        },
+        {
+          "id": "frozen_half_blinking.png",
+          "name": "frozen_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 188,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_half_blinking.png",
+            "MD5": "a9df26989b53767099780ab1b116cd7e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_half_blinking.png"
+          }
+        },
+        {
+          "id": "frozen_hardcore_full.png",
+          "name": "frozen_hardcore_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 260,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full.png",
+            "MD5": "aec58f67431d15e299ceb2299ed8be5b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
+          }
+        },
+        {
+          "id": "frozen_hardcore_full_blinking.png",
+          "name": "frozen_hardcore_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full_blinking.png",
+            "MD5": "cd716910f37cf2f35d216869772b29db",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full_blinking.png"
+          }
+        },
+        {
+          "id": "frozen_hardcore_half.png",
+          "name": "frozen_hardcore_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 223,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half.png",
+            "MD5": "b90611b7ea42f62fbfe7118f6b2819ef",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half.png"
+          }
+        },
+        {
+          "id": "frozen_hardcore_half_blinking.png",
+          "name": "frozen_hardcore_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half_blinking.png",
+            "MD5": "cd716910f37cf2f35d216869772b29db",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half_blinking.png"
+          }
+        },
+        {
+          "id": "full.png",
+          "name": "full.png",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/full.png",
+            "MD5": "cf912d15df6aad455efdf8ccb09951a0",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/full.png"
+          }
+        },
+        {
+          "id": "full_blinking.png",
+          "name": "full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 219,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/full_blinking.png",
+            "MD5": "59062e2122c98cf709d4923def50abcb",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/full_blinking.png"
+          }
+        },
+        {
+          "id": "half.png",
+          "name": "half.png",
+          "type": "File",
+          "artifact": {
+            "size": 177,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/half.png",
+            "MD5": "85844ebe2cdf3952d943183cce37fcb5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/half.png"
+          }
+        },
+        {
+          "id": "half_blinking.png",
+          "name": "half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 195,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/half_blinking.png",
+            "MD5": "5c150166bf752fa76b85336a3e9a468c",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/half_blinking.png"
+          }
+        },
+        {
+          "id": "hardcore_blinking.png",
+          "name": "hardcore_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_blinking.png",
+            "MD5": "be10ad1e638c64bc7b4c7c6515487ec9",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_blinking.png"
+          }
+        },
+        {
+          "id": "hardcore_full.png",
+          "name": "hardcore_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full.png",
+            "MD5": "7656c45bbeab8a6406fcd3ff7b25819f",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full.png"
+          }
+        },
+        {
+          "id": "hardcore_full_blinking.png",
+          "name": "hardcore_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full_blinking.png",
+            "MD5": "be10ad1e638c64bc7b4c7c6515487ec9",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full_blinking.png"
+          }
+        },
+        {
+          "id": "hardcore_half.png",
+          "name": "hardcore_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 193,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half.png",
+            "MD5": "ec919985667c27b430f22de5c64a05c2",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half.png"
+          }
+        },
+        {
+          "id": "hardcore_half_blinking.png",
+          "name": "hardcore_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 212,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half_blinking.png",
+            "MD5": "bd3e8af244fb77bcde89939f7a5457ed",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half_blinking.png"
+          }
+        },
+        {
+          "id": "poisoned_full.png",
+          "name": "poisoned_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full.png",
+            "MD5": "0d4518cfd6eefb73d9a6fee66709ddc4",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full.png"
+          }
+        },
+        {
+          "id": "poisoned_full_blinking.png",
+          "name": "poisoned_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 212,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full_blinking.png",
+            "MD5": "927fb75bbee55925f3d86d0226aca713",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full_blinking.png"
+          }
+        },
+        {
+          "id": "poisoned_half.png",
+          "name": "poisoned_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half.png",
+            "MD5": "86142ad9a86be276ce034c51b0fc04b5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half.png"
+          }
+        },
+        {
+          "id": "poisoned_half_blinking.png",
+          "name": "poisoned_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 185,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half_blinking.png",
+            "MD5": "07591cdcc5e19e43b1daac6c81c77d42",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half_blinking.png"
+          }
+        },
+        {
+          "id": "poisoned_hardcore_full.png",
+          "name": "poisoned_hardcore_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full.png",
+            "MD5": "782631cb6c2dc665e54251f9bdc9fe2d",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full.png"
+          }
+        },
+        {
+          "id": "poisoned_hardcore_full_blinking.png",
+          "name": "poisoned_hardcore_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png",
+            "MD5": "f2e799f73a421ebb961f7e11eb0e2ee7",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png"
+          }
+        },
+        {
+          "id": "poisoned_hardcore_half.png",
+          "name": "poisoned_hardcore_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 213,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half.png",
+            "MD5": "775ba50ea98d665aa4fc98c1afac7942",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half.png"
+          }
+        },
+        {
+          "id": "poisoned_hardcore_half_blinking.png",
+          "name": "poisoned_hardcore_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 211,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png",
+            "MD5": "bcbf6d3bd9b96d0b26e774321967833e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png"
+          }
+        },
+        {
+          "id": "vehicle_container.png",
+          "name": "vehicle_container.png",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_container.png",
+            "MD5": "52ee01b35c179b7445638eaf66e81d44",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_container.png"
+          }
+        },
+        {
+          "id": "vehicle_full.png",
+          "name": "vehicle_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_full.png",
+            "MD5": "683b100a487c0fb4b8958eefb9ed601d",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_full.png"
+          }
+        },
+        {
+          "id": "vehicle_half.png",
+          "name": "vehicle_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_half.png",
+            "MD5": "aaa0542aa23d0419a4bad3d6569e5331",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/vehicle_half.png"
+          }
+        },
+        {
+          "id": "withered_full.png",
+          "name": "withered_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_full.png",
+            "MD5": "56db9970e95ec6c8e93fea3b453effdd",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_full.png"
+          }
+        },
+        {
+          "id": "withered_full_blinking.png",
+          "name": "withered_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_full_blinking.png",
+            "MD5": "f7dfbb6c5995c21c01b91ac32791e828",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_full_blinking.png"
+          }
+        },
+        {
+          "id": "withered_half.png",
+          "name": "withered_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_half.png",
+            "MD5": "14bb3065b7fb966ba5b3afc68842d2ba",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_half.png"
+          }
+        },
+        {
+          "id": "withered_half_blinking.png",
+          "name": "withered_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_half_blinking.png",
+            "MD5": "74a4e2827abf6b569865f0551897108e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_half_blinking.png"
+          }
+        },
+        {
+          "id": "withered_hardcore_full.png",
+          "name": "withered_hardcore_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full.png",
+            "MD5": "25c0794f1bcf0c0771ffc6cffa582144",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full.png"
+          }
+        },
+        {
+          "id": "withered_hardcore_full_blinking.png",
+          "name": "withered_hardcore_full_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png",
+            "MD5": "cb6546c17fcc2c710f6ce61a6d59c703",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png"
+          }
+        },
+        {
+          "id": "withered_hardcore_half.png",
+          "name": "withered_hardcore_half.png",
+          "type": "File",
+          "artifact": {
+            "size": 212,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half.png",
+            "MD5": "da258966ee7e066fb087303085c23d17",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half.png"
+          }
+        },
+        {
+          "id": "withered_hardcore_half_blinking.png",
+          "name": "withered_hardcore_half_blinking.png",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half_blinking.png",
+            "MD5": "feee2c84877db5651f9d3015494aa6a0",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half_blinking.png"
+          }
+        },
+        {
+          "id": "hotbar.png",
+          "name": "hotbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar.png",
+            "MD5": "5c75515c2c9adbfcd2a46c88a56cd7e3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar.png"
+          }
+        },
+        {
+          "id": "hotbar_offhand_left.png",
+          "name": "hotbar_offhand_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 195,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png",
+            "MD5": "0484fcb1c8c53a3b0fd446cfa12e014b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png"
+          }
+        },
+        {
+          "id": "hotbar_offhand_right.png",
+          "name": "hotbar_offhand_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 208,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png",
+            "MD5": "135cab0674eb73e88c4f4d17d112fed4",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png"
+          }
+        },
+        {
+          "id": "hotbar_selection.png",
+          "name": "hotbar_selection.png",
+          "type": "File",
+          "artifact": {
+            "size": 175,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png",
+            "MD5": "099a6940eec1395cd91599ec8a6df6d8",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png"
+          }
+        },
+        {
+          "id": "jump_bar_background.png",
+          "name": "jump_bar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_background.png",
+            "MD5": "b2f9dcc60a0733698e8e3d9708a36f15",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_background.png"
+          }
+        },
+        {
+          "id": "jump_bar_cooldown.png",
+          "name": "jump_bar_cooldown.png",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png",
+            "MD5": "db3ff3ff342765e488625f0b22535611",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png"
+          }
+        },
+        {
+          "id": "jump_bar_progress.png",
+          "name": "jump_bar_progress.png",
+          "type": "File",
+          "artifact": {
+            "size": 1905,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_progress.png",
+            "MD5": "ccc316216c6eea83f90432244a23bb8b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/hud/jump_bar_progress.png"
+          }
+        },
+        {
+          "id": "button.png",
+          "name": "button.png",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button.png",
+            "MD5": "77ca57da7f926465a72fb5a20437eb39",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button.png"
+          }
+        },
+        {
+          "id": "button.png.mcmeta",
+          "name": "button.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta",
+            "MD5": "d13584b6cae71642a2decc4ccf6a7a81",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta"
+          }
+        },
+        {
+          "id": "button_disabled.png",
+          "name": "button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_disabled.png",
+            "MD5": "106d58043795ad7fefac01d25d25b34e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_disabled.png"
+          }
+        },
+        {
+          "id": "button_disabled.png.mcmeta",
+          "name": "button_disabled.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta",
+            "MD5": "691b8f5514bc9ab1ff66a375a59cbe12",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta"
+          }
+        },
+        {
+          "id": "button_highlighted.png",
+          "name": "button_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 302,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png",
+            "MD5": "c4171bfc4930636e22a45ce727493f36",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png"
+          }
+        },
+        {
+          "id": "button_highlighted.png.mcmeta",
+          "name": "button_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta",
+            "MD5": "d13584b6cae71642a2decc4ccf6a7a81",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "checkbox.png",
+          "name": "checkbox.png",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox.png",
+            "MD5": "8c1d8785aee735e7bc0419fa29b170b3",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox.png"
+          }
+        },
+        {
+          "id": "checkbox_highlighted.png",
+          "name": "checkbox_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png",
+            "MD5": "2d44aa3f986846165f7d727c4f93ec06",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png"
+          }
+        },
+        {
+          "id": "checkbox_selected.png",
+          "name": "checkbox_selected.png",
+          "type": "File",
+          "artifact": {
+            "size": 309,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png",
+            "MD5": "06485b90bbb5bb7ceb44ce3841e5ca2e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png"
+          }
+        },
+        {
+          "id": "checkbox_selected_highlighted.png",
+          "name": "checkbox_selected_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png",
+            "MD5": "22a758595717d0093d03f3bbb7389d77",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png"
+          }
+        },
+        {
+          "id": "locked_button.png",
+          "name": "locked_button.png",
+          "type": "File",
+          "artifact": {
+            "size": 450,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button.png",
+            "MD5": "d21d8d81b87bf15a980611f55e1a8a3b",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button.png"
+          }
+        },
+        {
+          "id": "locked_button_disabled.png",
+          "name": "locked_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 386,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png",
+            "MD5": "46ff5c84f0759d5189c82cc61bd818a9",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png"
+          }
+        },
+        {
+          "id": "locked_button_highlighted.png",
+          "name": "locked_button_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 457,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png",
+            "MD5": "ea1c29550b73d7f84ed3b232cab065d7",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png"
+          }
+        },
+        {
+          "id": "scroller.png",
+          "name": "scroller.png",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller.png",
+            "MD5": "dc400ef53794800e7bf9d4f29982202f",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller.png"
+          }
+        },
+        {
+          "id": "scroller.png.mcmeta",
+          "name": "scroller.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta",
+            "MD5": "1983e3f84b7908146707371297c3b2f6",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta"
+          }
+        },
+        {
+          "id": "scroller_background.png",
+          "name": "scroller_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller_background.png",
+            "MD5": "843e6fc42cbc5df6334a98f6703cb141",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller_background.png"
+          }
+        },
+        {
+          "id": "scroller_background.png.mcmeta",
+          "name": "scroller_background.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta",
+            "MD5": "1983e3f84b7908146707371297c3b2f6",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta"
+          }
+        },
+        {
+          "id": "slider.png",
+          "name": "slider.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider.png",
+            "MD5": "106d58043795ad7fefac01d25d25b34e",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider.png"
+          }
+        },
+        {
+          "id": "slider.png.mcmeta",
+          "name": "slider.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta",
+            "MD5": "691b8f5514bc9ab1ff66a375a59cbe12",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta"
+          }
+        },
+        {
+          "id": "slider_handle.png",
+          "name": "slider_handle.png",
+          "type": "File",
+          "artifact": {
+            "size": 149,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png",
+            "MD5": "057ed19dbce0aaeaf3c5a304b704bd69",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png"
+          }
+        },
+        {
+          "id": "slider_handle.png.mcmeta",
+          "name": "slider_handle.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta",
+            "MD5": "bdc98e94ea6e0a77d82b628a044727a5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta"
+          }
+        },
+        {
+          "id": "slider_handle_highlighted.png",
+          "name": "slider_handle_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png",
+            "MD5": "121046d82eb31da8a078ab2e9a2766fb",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png"
+          }
+        },
+        {
+          "id": "slider_handle_highlighted.png.mcmeta",
+          "name": "slider_handle_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta",
+            "MD5": "bdc98e94ea6e0a77d82b628a044727a5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "slider_highlighted.png",
+          "name": "slider_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 1165,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png",
+            "MD5": "32cb48b36620bd58044533840ad541bd",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png"
+          }
+        },
+        {
+          "id": "slider_highlighted.png.mcmeta",
+          "name": "slider_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta",
+            "MD5": "691b8f5514bc9ab1ff66a375a59cbe12",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "slot_frame.png",
+          "name": "slot_frame.png",
+          "type": "File",
+          "artifact": {
+            "size": 788,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slot_frame.png",
+            "MD5": "4bc4dc372442714ee890072bbad83fa5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/slot_frame.png"
+          }
+        },
+        {
+          "id": "tab.png",
+          "name": "tab.png",
+          "type": "File",
+          "artifact": {
+            "size": 134,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab.png",
+            "MD5": "74a8177890fbeedc67abd6b5e8fa10ee",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab.png"
+          }
+        },
+        {
+          "id": "tab.png.mcmeta",
+          "name": "tab.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta",
+            "MD5": "ae99e47f71aaf8b6b1218223f89430ae",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta"
+          }
+        },
+        {
+          "id": "tab_highlighted.png",
+          "name": "tab_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png",
+            "MD5": "a510d503cb9d9e6bb3369c15acbd4770",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png"
+          }
+        },
+        {
+          "id": "tab_highlighted.png.mcmeta",
+          "name": "tab_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta",
+            "MD5": "ae99e47f71aaf8b6b1218223f89430ae",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "tab_selected.png",
+          "name": "tab_selected.png",
+          "type": "File",
+          "artifact": {
+            "size": 131,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected.png",
+            "MD5": "03c1630ad3f815a38fccd3b42e5da299",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected.png"
+          }
+        },
+        {
+          "id": "tab_selected.png.mcmeta",
+          "name": "tab_selected.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta",
+            "MD5": "ae99e47f71aaf8b6b1218223f89430ae",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta"
+          }
+        },
+        {
+          "id": "tab_selected_highlighted.png",
+          "name": "tab_selected_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png",
+            "MD5": "a938c9e94c5016690b31fdf728e327ba",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png"
+          }
+        },
+        {
+          "id": "tab_selected_highlighted.png.mcmeta",
+          "name": "tab_selected_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta",
+            "MD5": "ae99e47f71aaf8b6b1218223f89430ae",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "text_field.png",
+          "name": "text_field.png",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png",
+            "MD5": "21ad348f78592e2dc198531a97233bf2",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png"
+          }
+        },
+        {
+          "id": "text_field.png.mcmeta",
+          "name": "text_field.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta",
+            "MD5": "691b8f5514bc9ab1ff66a375a59cbe12",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta"
+          }
+        },
+        {
+          "id": "text_field_highlighted.png",
+          "name": "text_field_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png",
+            "MD5": "68ff7fca05d34abb43f267b443f43309",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png"
+          }
+        },
+        {
+          "id": "text_field_highlighted.png.mcmeta",
+          "name": "text_field_highlighted.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta",
+            "MD5": "691b8f5514bc9ab1ff66a375a59cbe12",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta"
+          }
+        },
+        {
+          "id": "unlocked_button.png",
+          "name": "unlocked_button.png",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button.png",
+            "MD5": "af5892555fd39e7ecbf37628d907f0af",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button.png"
+          }
+        },
+        {
+          "id": "unlocked_button_disabled.png",
+          "name": "unlocked_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png",
+            "MD5": "34060b743fdd38ed68af6e3b6164022d",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png"
+          }
+        },
+        {
+          "id": "unlocked_button_highlighted.png",
+          "name": "unlocked_button_highlighted.png",
+          "type": "File",
+          "artifact": {
+            "size": 470,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png",
+            "MD5": "8e3f93be99e67f5698fa26906e1ec737",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png"
+          }
+        },
+        {
+          "id": "license.txt",
+          "name": "license.txt",
+          "type": "File",
+          "artifact": {
+            "size": 801,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/license.txt",
+            "MD5": "ad1db8ff47ecd859506cba2ddb40700a",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/license.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2257199,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_0.png",
+            "MD5": "ffb8b55be6c852a0a0750804cece4458",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2274743,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_1.png",
+            "MD5": "857859e069e45294871c626ae9baf9de",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2262616,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_2.png",
+            "MD5": "6d1cd7d767266cd5083d3266caeeceae",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 2335833,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_3.png",
+            "MD5": "0a446f563b13e2dca126a6023d11c0d5",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 1378710,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_4.png",
+            "MD5": "34a81811d60d715fd44f0722d7d84bef",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 3071595,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_5.png",
+            "MD5": "07e626b078ef644a7f2067f39043e465",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_5.png"
+          }
+        },
+        {
+          "id": "panorama_overlay.png",
+          "name": "panorama_overlay.png",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "MD5": "5e85c9e027346c1dccedff168acb6052",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+          }
+        },
+        {
+          "id": "edition.png",
+          "name": "edition.png",
+          "type": "File",
+          "artifact": {
+            "size": 674,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/edition.png",
+            "MD5": "b6290e4209f89c47b7e36d907c42cc7f",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/edition.png"
+          }
+        },
+        {
+          "id": "edition.png.mcmeta",
+          "name": "edition.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/edition.png.mcmeta",
+            "MD5": "a390fa12cd34691bdac2b61e7fd861c6",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/edition.png.mcmeta"
+          }
+        },
+        {
+          "id": "minceraft.png",
+          "name": "minceraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 67569,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/minceraft.png",
+            "MD5": "767ec9cb37bb6e763531d3046f04c1ca",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/minceraft.png"
+          }
+        },
+        {
+          "id": "minceraft.png.mcmeta",
+          "name": "minceraft.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/minceraft.png.mcmeta",
+            "MD5": "a390fa12cd34691bdac2b61e7fd861c6",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/minceraft.png.mcmeta"
+          }
+        },
+        {
+          "id": "minecraft.png",
+          "name": "minecraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 77259,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png",
+            "MD5": "60298781109ec267b3cf44d9adecfffc",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "minecraft.png.mcmeta",
+          "name": "minecraft.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png.mcmeta",
+            "MD5": "a390fa12cd34691bdac2b61e7fd861c6",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png.mcmeta"
+          }
+        },
+        {
+          "id": "mojangstudios.png",
+          "name": "mojangstudios.png",
+          "type": "File",
+          "artifact": {
+            "size": 63584,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/minecraft/textures/gui/title/mojangstudios.png",
+            "MD5": "062f35c6690846c199ca31b160b8ec67",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/mojangstudios.png"
+          }
+        },
+        {
+          "id": "coserv.json",
+          "name": "coserv.json",
+          "type": "File",
+          "artifact": {
+            "size": 222,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/coserv.json",
+            "MD5": "d5e8b9a9def1a9f4980160e058e195dd",
+            "path": "packmenu/resources/assets/packmenu/buttons/coserv.json"
+          }
+        },
+        {
+          "id": "live.json",
+          "name": "live.json",
+          "type": "File",
+          "artifact": {
+            "size": 271,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/live.json",
+            "MD5": "dca79da8567edff71cd75eba3b7b5af4",
+            "path": "packmenu/resources/assets/packmenu/buttons/live.json"
+          }
+        },
+        {
+          "id": "mods.json",
+          "name": "mods.json",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/mods.json",
+            "MD5": "33ac85c29bcf9f65d7c70a4e77e33b76",
+            "path": "packmenu/resources/assets/packmenu/buttons/mods.json"
+          }
+        },
+        {
+          "id": "multi.json",
+          "name": "multi.json",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/multi.json",
+            "MD5": "1b1f8180416cfb11b199b4905ea6efe3",
+            "path": "packmenu/resources/assets/packmenu/buttons/multi.json"
+          }
+        },
+        {
+          "id": "options.json",
+          "name": "options.json",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/options.json",
+            "MD5": "e2c6624dbada4a7592b9cb2ab31970e7",
+            "path": "packmenu/resources/assets/packmenu/buttons/options.json"
+          }
+        },
+        {
+          "id": "panorama.json",
+          "name": "panorama.json",
+          "type": "File",
+          "artifact": {
+            "size": 314,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/panorama.json",
+            "MD5": "84bf6a52c997868cc27a1db5176b02c1",
+            "path": "packmenu/resources/assets/packmenu/buttons/panorama.json"
+          }
+        },
+        {
+          "id": "quit.json",
+          "name": "quit.json",
+          "type": "File",
+          "artifact": {
+            "size": 178,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/quit.json",
+            "MD5": "d126457bf8c8c581a60c9add4b11bb60",
+            "path": "packmenu/resources/assets/packmenu/buttons/quit.json"
+          }
+        },
+        {
+          "id": "reload.json",
+          "name": "reload.json",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/reload.json",
+            "MD5": "b15a2cbf915113d117fc12febc3942ca",
+            "path": "packmenu/resources/assets/packmenu/buttons/reload.json"
+          }
+        },
+        {
+          "id": "solo.json",
+          "name": "solo.json",
+          "type": "File",
+          "artifact": {
+            "size": 268,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/solo.json",
+            "MD5": "4d6b72834e5bce3b300e62193ab1b3c7",
+            "path": "packmenu/resources/assets/packmenu/buttons/solo.json"
+          }
+        },
+        {
+          "id": "website.json",
+          "name": "website.json",
+          "type": "File",
+          "artifact": {
+            "size": 270,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/buttons/website.json",
+            "MD5": "7aeacaca102bb890997af80f5cff3d30",
+            "path": "packmenu/resources/assets/packmenu/buttons/website.json"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/lang/en_us.json",
+            "MD5": "cb319e312cff92a58c4ff32b17a87048",
+            "path": "packmenu/resources/assets/packmenu/lang/en_us.json"
+          }
+        },
+        {
+          "id": "supporters.txt",
+          "name": "supporters.txt",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/texts/supporters.txt",
+            "MD5": "c373a7eeaffcc5396989a26484455c8c",
+            "path": "packmenu/resources/assets/packmenu/texts/supporters.txt"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 426870,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/textures/gui/background.png",
+            "MD5": "46074f4c771192f38aac7fae3f6cf01e",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/background.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 4750,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/textures/gui/logo.png",
+            "MD5": "c7d89b523c03f45d60d703fff7cc0036",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/logo.png"
+          }
+        },
+        {
+          "id": "akliz.png",
+          "name": "akliz.png",
+          "type": "File",
+          "artifact": {
+            "size": 302,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/textures/gui/sprites/icon/akliz.png",
+            "MD5": "906f52d77fa8b86febeaeb9fe2262286",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/sprites/icon/akliz.png"
+          }
+        },
+        {
+          "id": "reload.png",
+          "name": "reload.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/textures/gui/sprites/icon/reload.png",
+            "MD5": "e7ead7dd0c27aee29aa5792a587ce924",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/sprites/icon/reload.png"
+          }
+        },
+        {
+          "id": "web.png",
+          "name": "web.png",
+          "type": "File",
+          "artifact": {
+            "size": 890,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/assets/packmenu/textures/gui/sprites/icon/web.png",
+            "MD5": "d4e0eda2488e88d6e13334a946d23031",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/sprites/icon/web.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/pack.mcmeta",
+            "MD5": "a748f2af9f6a70e80acd49af1a43f407",
+            "path": "packmenu/resources/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 148469,
+            "url": "https://axelfla.github.io/launcher-des-mies-craft/servers/Serveur-survie-modd%C3%A9-1.21.1/files/packmenu/resources/pack.png",
+            "MD5": "0e894f3c7fcb54676f0c48b5167a78e2",
+            "path": "packmenu/resources/pack.png"
+          }
+        }
+      ]
+    }
+  ]
+}

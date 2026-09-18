@@ -1,0 +1,22 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "launcher des mies craft"
+
+[ejs.landing]
+mediaWebsiteURL = "https://pinpin600.gt.tc"
+mediaGitHubURL = "https://pinpin600.gt.tc"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/kvtqBGjBZx"
+mediaTwitchURL = "https://www.twitch.tv/pinpin25"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/Axelfla/launcher-des-mies-craft"
+supportLink = "https://github.com/Axelfla/launcher-des-mies-craft/issues"
+
+[ejs.welcome]
+welcomeHeader = "A QUE COUCOU SUR LE LAUNCHER"
+welcomeDescription = "Bienvenue sur le launcher des mies vous avez ici toute les version des mods a jours tout se qui faut pour vous puissiez jouer en détente et que vous pensiez plus a quelle mods installé , n'oublier pas que en cliquant sur le nom du serveur dans le launcher vous pouvez changer de serveur et les mods avec s'installera , c'est bien hein et re merciment au projet helios launcher qui a donné une de ces bases qui était perso"
+welcomeDescCTA = "Voicie le launcher du serveur pour les mies"
