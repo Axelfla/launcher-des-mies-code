@@ -2,6 +2,8 @@ name: Build
 
 on:
   push:
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
@@ -44,58 +46,43 @@ jobs:
         run: npm run dist
         shell: bash
 
-      - name: Prepare platform output
-        shell: bash
-        run: |
-          mkdir -p "dist-${{ matrix.platform }}"
-          cp -R dist/. "dist-${{ matrix.platform }}/"
-
-      - name: Upload platform build
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v6
         with:
           name: dist-${{ matrix.platform }}
-          path: dist-${{ matrix.platform }}/
+          path: dist/
           if-no-files-found: error
 
-  merge-dist:
+  release:
     needs: build
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
       - name: Download Windows build
         uses: actions/download-artifact@v6
         with:
           name: dist-windows
-          path: dist/windows
+          path: release/windows
 
       - name: Download Linux build
         uses: actions/download-artifact@v6
         with:
           name: dist-linux
-          path: dist/linux
+          path: release/linux
 
       - name: Download macOS build
         uses: actions/download-artifact@v6
         with:
           name: dist-macos
-          path: dist/macos
+          path: release/macos
 
-      - name: Commit dist
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add dist
-
-          if git diff --cached --quiet; then
-            echo "No changes in dist."
-          else
-            git commit -m "build: update compiled distributions"
-            git push
-          fi
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Launcher des Mies Craft ${{ github.ref_name }}
+          generate_release_notes: true
+          files: |
+            release/windows/*
+            release/linux/*
+            release/macos/*
