@@ -1,17 +1,24 @@
 name: Build
 
-on: push
+on:
+  push:
+
+permissions:
+  contents: write
 
 jobs:
-  release:
+  build:
     runs-on: ${{ matrix.os }}
-
-    permissions:
-      contents: write
 
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        include:
+          - os: windows-latest
+            platform: windows
+          - os: ubuntu-latest
+            platform: linux
+          - os: macos-latest
+            platform: macos
 
     steps:
       - name: Check out Git repository
@@ -36,3 +43,59 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run dist
         shell: bash
+
+      - name: Prepare platform output
+        shell: bash
+        run: |
+          mkdir -p "dist-${{ matrix.platform }}"
+          cp -R dist/. "dist-${{ matrix.platform }}/"
+
+      - name: Upload platform build
+        uses: actions/upload-artifact@v6
+        with:
+          name: dist-${{ matrix.platform }}
+          path: dist-${{ matrix.platform }}/
+          if-no-files-found: error
+
+  merge-dist:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Download Windows build
+        uses: actions/download-artifact@v6
+        with:
+          name: dist-windows
+          path: dist/windows
+
+      - name: Download Linux build
+        uses: actions/download-artifact@v6
+        with:
+          name: dist-linux
+          path: dist/linux
+
+      - name: Download macOS build
+        uses: actions/download-artifact@v6
+        with:
+          name: dist-macos
+          path: dist/macos
+
+      - name: Commit dist
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add dist
+
+          if git diff --cached --quiet; then
+            echo "No changes in dist."
+          else
+            git commit -m "build: update compiled distributions"
+            git push
+          fi
