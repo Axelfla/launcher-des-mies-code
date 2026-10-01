@@ -1,9 +1,9 @@
 {
   "name": "launcher-des-mies",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "productName": "launcher des mies craft",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Bynex",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
