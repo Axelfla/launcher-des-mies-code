@@ -7,11 +7,6 @@ copyright: 'Copyright © 2018-2026 Daniel Scalzi'
 asar: true
 compression: 'maximum'
 
-publish:
-  provider: github
-  owner: Axelfla
-  repo: launcher-des-mies-craft
-
 files:
   - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,eslint.config.mjs}'
 
