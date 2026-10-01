@@ -706,7 +706,11 @@ async function resolveModsForUI(){
     const distro = await DistroAPI.getDistribution()
     const servConf = ConfigManager.getModConfiguration(serv)
 
-    const modStr = parseModulesForUI(distro.getServerById(serv).modules, false, servConf.mods)
+    const modStr = parseModulesForUI(
+        distro.getServerById(serv).modules,
+        false,
+        servConf != null && servConf.mods != null ? servConf.mods : {}
+    )
 
     document.getElementById('settingsReqModsContent').innerHTML = modStr.reqMods
     document.getElementById('settingsOptModsContent').innerHTML = modStr.optMods
@@ -751,7 +755,7 @@ function parseModulesForUI(mdls, submodules, servConf){
 
             } else {
 
-                const conf = servConf[mdl.getVersionlessMavenIdentifier()]
+                const conf = servConf != null ? servConf[mdl.getVersionlessMavenIdentifier()] : null
                 const val = typeof conf === 'object' ? conf.value : conf
 
                 optMods += `<div id="${mdl.getVersionlessMavenIdentifier()}" class="settingsBaseMod settings${submodules ? 'Sub' : ''}Mod" ${val ? 'enabled' : ''}>
@@ -768,8 +772,8 @@ function parseModulesForUI(mdls, submodules, servConf){
                             <span class="toggleSwitchSlider"></span>
                         </label>
                     </div>
-                    ${mdl.subModules.length > 0 ? `<div class="settingsSubModContainer">
-                        ${Object.values(parseModulesForUI(mdl.subModules, true, conf.mods)).join('')}
+                        ${mdl.subModules.length > 0 ? `<div class="settingsSubModContainer">
+                        ${Object.values(parseModulesForUI(mdl.subModules, true, conf != null && typeof conf === 'object' ? conf.mods : {})).join('')}
                     </div>` : ''}
                 </div>`
 
@@ -808,7 +812,10 @@ function bindModsToggleSwitch(){
 function saveModConfiguration(){
     const serv = ConfigManager.getSelectedServer()
     const modConf = ConfigManager.getModConfiguration(serv)
-    modConf.mods = _saveModConfiguration(modConf.mods)
+    if(modConf == null) {
+        return
+    }
+    modConf.mods = _saveModConfiguration(modConf.mods != null ? modConf.mods : {})
     ConfigManager.setModConfiguration(serv, modConf)
 }
 
@@ -820,6 +827,11 @@ function saveModConfiguration(){
 function _saveModConfiguration(modConf){
     for(let m of Object.entries(modConf)){
         const tSwitch = settingsModsContainer.querySelectorAll(`[formod='${m[0]}']`)
+        // A refreshed distribution can remove a mod while its old setting is
+        // still stored locally. Keep that setting without blocking all saves.
+        if(tSwitch.length === 0){
+            continue
+        }
         if(!tSwitch[0].hasAttribute('dropin')){
             if(typeof m[1] === 'boolean'){
                 modConf[m[0]] = tSwitch[0].checked
@@ -828,7 +840,9 @@ function _saveModConfiguration(modConf){
                     if(tSwitch.length > 0){
                         modConf[m[0]].value = tSwitch[0].checked
                     }
-                    modConf[m[0]].mods = _saveModConfiguration(modConf[m[0]].mods)
+                    modConf[m[0]].mods = _saveModConfiguration(
+                        modConf[m[0]].mods != null ? modConf[m[0]].mods : {}
+                    )
                 }
             }
         }

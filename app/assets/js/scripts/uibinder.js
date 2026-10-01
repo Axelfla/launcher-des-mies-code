@@ -159,7 +159,7 @@ function syncModConfigurations(data){
 
         if(cfg != null){
 
-            const modsOld = cfg.mods
+            const modsOld = cfg.mods != null && typeof cfg.mods === 'object' ? cfg.mods : {}
             const mods = {}
 
             for(let mdl of mdls){
@@ -308,12 +308,13 @@ function mergeModConfiguration(o, n, nReq = false){
                 n.value = typeof o.value !== 'undefined' ? o.value : true
             }
 
-            const newMods = Object.keys(n.mods)
+            const oldMods = o.mods != null && typeof o.mods === 'object' ? o.mods : {}
+            const newMods = n.mods != null && typeof n.mods === 'object' ? Object.keys(n.mods) : []
             for(let i=0; i<newMods.length; i++){
 
                 const mod = newMods[i]
-                if(o.mods[mod] != null){
-                    n.mods[mod] = mergeModConfiguration(o.mods[mod], n.mods[mod])
+                if(oldMods[mod] != null){
+                    n.mods[mod] = mergeModConfiguration(oldMods[mod], n.mods[mod])
                 }
             }
 

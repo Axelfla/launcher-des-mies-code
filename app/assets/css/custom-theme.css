@@ -63,33 +63,35 @@
     -webkit-filter: drop-shadow(0px 0px 2px var(--accent));
 }
 
-/* Zone de lancement (bas droite) — carte en verre + bouton plein orange */
+/* Zone de lancement (bas droite) — juste le bouton plein orange, sans
+   carte/contour autour (il n'y a plus qu'un seul bouton dedans). */
 #landingContainer > #lower > #right #launch_content {
     align-items: center;
-    background: var(--glass-bg-strong);
-    -webkit-backdrop-filter: blur(var(--glass-blur));
-    backdrop-filter: blur(var(--glass-blur));
-    border: 1px solid var(--glass-border);
-    border-radius: 12px;
-    padding: 10px 24px;
+    background: none;
+    border: none;
+    padding: 0;
 }
 #launch_button {
     color: #fff;
     background: var(--accent);
+    border: none;
     border-radius: 8px;
     padding: 8px 22px !important;
     text-shadow: none;
     box-shadow: 0px 4px 18px var(--accent-glow);
+    outline: none;
 }
 #launch_button:hover,
 #launch_button:focus {
     background: var(--accent-hover);
     text-shadow: none;
+    outline: none;
 }
 #launch_button:active {
     background: var(--accent-active);
     color: #fff;
     text-shadow: none;
+    outline: none;
 }
 #launch_button:disabled {
     background: rgba(232, 117, 44, 0.35);
@@ -309,4 +311,28 @@ html, body {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+}
+
+/* Le MOTD du serveur n'est plus affiché dans la carte de statut (bas
+   gauche). L'élément reste en DOM (landing.js y écrit toujours le texte)
+   mais n'est plus visible ; le compteur de joueurs reste affiché. */
+#server_status_motd {
+    display: none;
+}
+
+/* On ne garde que le bouton "Jouer" en bas à droite : la sélection de
+   serveur passe désormais par les icônes de la sidebar, donc l'ancien
+   bouton de sélection (et son séparateur) sont masqués ici. */
+#launch_content .bot_divider,
+#server_selection_button {
+    display: none;
+}
+
+/* Centrer verticalement le bouton "Jouer" au milieu de la colonne droite
+   de la barre du bas (au lieu d'être collé en haut de cette colonne). */
+#landingContainer > #lower > #right {
+    align-items: center;
+}
+#landingContainer > #lower > #right #launch_content {
+    top: 0;
 }

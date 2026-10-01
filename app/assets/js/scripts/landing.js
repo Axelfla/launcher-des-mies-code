@@ -80,6 +80,9 @@ function setLaunchDetails(details){
  * @param {number} percent Percentage (0-100)
  */
 function setLaunchPercentage(percent){
+    if(!Number.isFinite(percent)) {
+        percent = 0
+    }
     launch_progress.setAttribute('max', 100)
     launch_progress.setAttribute('value', percent)
     launch_progress_label.innerHTML = percent + '%'
@@ -91,6 +94,10 @@ function setLaunchPercentage(percent){
  * @param {number} percent Percentage (0-100)
  */
 function setDownloadPercentage(percent){
+    if(!Number.isFinite(percent)) {
+        // Artifact sizes are optional; MD5 remains the integrity check.
+        percent = 0
+    }
     remote.getCurrentWindow().setProgressBar(percent/100)
     setLaunchPercentage(percent)
 }

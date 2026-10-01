@@ -41,6 +41,7 @@ exports.setDataDirectory = function(dataDirectory){
 
 const configPath = path.join(exports.getLauncherDirectory(), 'config.json')
 const configPathLEGACY = path.join(dataPath, 'config.json')
+const configTempPath = `${configPath}.tmp`
 const firstLaunch = !fs.existsSync(configPath) && !fs.existsSync(configPathLEGACY)
 
 exports.getAbsoluteMinRAM = function(ram){
@@ -110,7 +111,15 @@ let config = null
  * Save the current configuration to a file.
  */
 exports.save = function(){
-    fs.writeFileSync(configPath, JSON.stringify(config, null, 4), 'UTF-8')
+    if(config == null) {
+        return
+    }
+
+    // Write the complete file before replacing the live config. This prevents
+    // a launcher close or a sync client from leaving a half-written JSON file.
+    fs.ensureDirSync(path.dirname(configPath))
+    fs.writeFileSync(configTempPath, JSON.stringify(config, null, 4), 'UTF-8')
+    fs.renameSync(configTempPath, configPath)
 }
 
 /**
@@ -121,6 +130,11 @@ exports.save = function(){
  */
 exports.load = function(){
     let doLoad = true
+
+    // Recover a completed temporary save left by an interrupted replacement.
+    if(!fs.existsSync(configPath) && fs.existsSync(configTempPath)) {
+        fs.renameSync(configTempPath, configPath)
+    }
 
     if(!fs.existsSync(configPath)){
         // Create all parent directories.

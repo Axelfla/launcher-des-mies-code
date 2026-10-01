@@ -1,6 +1,6 @@
 {
   "name": "launcher-des-mies",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "productName": "launcher des mies craft",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
@@ -13,6 +13,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
+    "distro:generate": "node tools/generate-distribution.js",
     "dist": "electron-builder build",
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
