@@ -5,16 +5,16 @@
   "description": "Modded Minecraft Launcher",
   "author": "Bynex",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/Axelfla/launcher-des-mies-code",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/Axelfla/launcher-des-mies-code/issues"
   },
   "private": true,
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "distro:generate": "node tools/generate-distribution.js",
-    "dist": "electron-builder build",
+    "dist": "electron-builder build --publish never",
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Axelfla/launcher-des-mies-code.git"
   }
 }
