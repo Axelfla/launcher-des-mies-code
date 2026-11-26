@@ -17,6 +17,6 @@ sourceGithubLink = "https://github.com/Axelfla/launcher-des-mies-craft"
 supportLink = "https://github.com/Axelfla/launcher-des-mies-craft/issues"
 
 [ejs.welcome]
-welcomeHeader = "A QUE COUCOU SUR LE LAUNCHER"
-welcomeDescription = "Bienvenue sur le launcher des mies vous avez ici toute les version des mods a jours tout se qui faut pour vous puissiez jouer en détente et que vous pensiez plus a quelle mods installé , n'oublier pas que en cliquant sur le nom du serveur dans le launcher vous pouvez changer de serveur et les mods avec s'installera , c'est bien hein et re merciment au projet helios launcher qui a donné une de ces bases qui était perso"
-welcomeDescCTA = "Voicie le launcher du serveur pour les mies"
+welcomeHeader = "BIENVENUE SUR LE LAUNCHER LES (A)MIES !"
+welcomeDescription = "Bienvenue sur le launcher des mies, ici vous avez toute les version des mods à jours et tout ce qu'il faut pour vous puissiez jouer en détente et que vous ne pensiez plus à quel mods installer. N'oubliez pas qu'en cliquant sur l'icone du serveur dans le launcher, vous pouvez changer de serveur et les mods s'installerons avec, c'est bien hein et un remerciment au projet helios launcher qui à donné une de ces bases qui était perso."
+welcomeDescCTA = "Voici le launcher du serveur pour les mies"
