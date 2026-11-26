@@ -1,5 +1,5 @@
 appId: 'launcher des mies craft'
-productName: 'launcher des mies craft'
+productName: 'Launcher des mies craft'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2026 Daniel Scalzi'
