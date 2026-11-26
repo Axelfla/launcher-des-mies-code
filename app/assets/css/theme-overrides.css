@@ -1,0 +1,96 @@
+/* Palette d'accentuation demandée. */
+:root {
+    --accent: #fea002;
+    --accent-hover: #ffb52e;
+    --accent-active: #d98600;
+    --accent-glow: rgba(254, 160, 2, 0.75);
+}
+
+/* Accents interactifs et contrôles de lancement. */
+#newsButton:hover #newsButtonText,
+#newsButton:focus #newsButtonText,
+#server_selection_button:hover,
+#server_selection_button:focus,
+.settingsAddAuthAccount:hover,
+.settingsAddAuthAccount:focus,
+.settingsFileSelButton:hover,
+.settingsFileSelButton:focus,
+.settingsSwitchServerButton:hover,
+.settingsSwitchServerButton:focus,
+.settingsDistroServerButton:hover,
+.settingsDistroServerButton:focus,
+.settingsAboutButton:hover,
+.settingsAboutButton:focus,
+#settingsUpdateActionButton:hover,
+#settingsUpdateActionButton:focus,
+#settingsNavDone:hover,
+#settingsNavDone:focus {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    text-shadow: 0 0 12px var(--accent-glow) !important;
+}
+
+#launch_button,
+#settingsUpdateActionButton,
+.settingsAddAuthAccount,
+.settingsFileSelButton,
+.settingsSwitchServerButton,
+.settingsDistroServerButton,
+.settingsAboutButton,
+#settingsNavDone {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#launch_button:hover,
+#settingsUpdateActionButton:hover,
+.settingsAddAuthAccount:hover,
+.settingsFileSelButton:hover,
+.settingsSwitchServerButton:hover,
+.settingsDistroServerButton:hover,
+.settingsAboutButton:hover,
+#settingsNavDone:hover {
+    background-color: var(--accent-hover);
+    color: #171614 !important;
+    border-color: var(--accent) !important;
+}
+
+.settingsNavItem:hover,
+.settingsNavItem:focus,
+.settingsNavItem[selected] {
+    color: var(--accent) !important;
+    border-left-color: var(--accent) !important;
+}
+
+/* Sidebar gauche plus sombre pour mieux la détacher du fond. */
+#serverSidebar {
+    background: rgba(8, 8, 8, 0.78) !important;
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Icône A : SealCircle.png. Retirer le contour et descendre légèrement le logo. */
+#serverSidebar #image_seal_container {
+    margin-top: 8px;
+}
+#serverSidebar #image_seal {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Centrer précisément l'icône paramètres B dans la largeur de la barre. */
+#serverSidebar .server-nav-bottom,
+#serverSidebar #settingsMediaContainer,
+#serverSidebar #settingsMediaButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#serverSidebar #settingsMediaContainer,
+#serverSidebar #settingsMediaButton {
+    margin-left: auto;
+    margin-right: auto;
+}
+#serverSidebar #settingsSVG {
+    display: block;
+    margin: 0 auto;
+}
