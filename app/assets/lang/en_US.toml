@@ -1,7 +1,7 @@
 [ejs.landing]
 updateAvailableTooltip = "Mise à jour disponible"
 usernamePlaceholder = "Nom d'utilisateur"
-usernameEditButton = "Modifier"
+usernameEditButton = "Compte(s)"
 settingsTooltip = "Paramètres"
 serverStatus = "SERVEUR"
 serverStatusPlaceholder = "HORS LIGNE"
@@ -88,7 +88,7 @@ tabJavaHeaderDesc = "Gérer la configuration de Java (avancé)."
 memoryTitle = "Mémoire"
 maxRAM = "RAM maximale"
 minRAM = "RAM minimale"
-memoryDesc = "La quantité minimale de RAM recommandée est de 3 gigaoctets. Définir les valeurs minimale et maximale sur la même valeur peut réduire les ralentissements."
+memoryDesc = "La quantité de RAM recommandée est de 8 gigaoctets. Définir les valeurs minimale et maximale sur la même valeur peut réduire les ralentissements."
 memoryTotalTitle = "Total"
 memoryAvailableTitle = "Disponible"
 javaExecutableTitle = "Exécutable Java"
@@ -131,14 +131,14 @@ whatsNew = "Nouveautés"
 updateReleaseNotes = "Notes de version de la mise à jour"
 
 [ejs.waiting]
-waitingText = "En attente de Microsoft.."
+waitingText = "En attente de Microsoft..."
 
 [ejs.welcome]
 continueButton = "CONTINUER"
 
 
 [js.discord]
-waiting = "En attente du client.."
+waiting = "En attente du client..."
 state = "Serveur : {shortId}"
 
 [js.index]
@@ -160,7 +160,7 @@ title = "Erreur inconnue lors de la connexion"
 desc = "Une erreur inconnue s'est produite. Consultez la console pour plus de détails."
 
 [js.landing.launch]
-pleaseWait = "Veuillez patienter.."
+pleaseWait = "Veuillez patienter..."
 failureTitle = "Erreur lors du lancement"
 failureText = "Consultez la console (CTRL + Shift + i) pour plus de détails."
 okay = "OK"
@@ -170,7 +170,7 @@ noAccountSelected = "Aucun compte sélectionné"
 
 [js.landing.selectedServer]
 noSelection = "Aucun serveur sélectionné"
-loading = "Chargement.."
+loading = "Chargement..."
 
 [js.landing.serverStatus]
 server = "SERVEUR"
@@ -180,12 +180,12 @@ pinging = "Ping..."
 players = "JOUEURS"
 
 [js.landing.systemScan]
-checking = "Vérification des informations système.."
+checking = "Vérification des informations système..."
 noCompatibleJava = "Aucune installation<br>Java compatible trouvée"
 installJavaMessage = "Pour lancer Minecraft, vous avez besoin d'une installation 64 bits de Java {major}. Voulez-vous que nous en installions une ?"
 installJava = "Installer Java"
 installJavaManually = "Installer manuellement"
-javaDownloadPrepare = "Préparation du téléchargement de Java.."
+javaDownloadPrepare = "Préparation du téléchargement de Java..."
 javaDownloadFailureTitle = "Erreur lors du téléchargement de Java"
 javaDownloadFailureText = "Consultez la console (CTRL + Shift + i) pour plus de détails."
 javaRequired = "Java est requis<br>pour lancer le jeu"
@@ -200,29 +200,29 @@ extractingJava = "Extraction de Java"
 javaInstalled = "Java installé !"
 
 [js.landing.dlAsync]
-loadingServerInfo = "Chargement des informations du serveur.."
+loadingServerInfo = "Chargement des informations du serveur..."
 fatalError = "Erreur fatale"
 unableToLoadDistributionIndex = "Impossible de charger une copie de l'index de distribution. Consultez la console (CTRL + Shift + i) pour plus de détails."
-pleaseWait = "Veuillez patienter.."
+pleaseWait = "Veuillez patienter..."
 errorDuringLaunchTitle = "Erreur lors du lancement"
 seeConsoleForDetails = "Consultez la console (CTRL + Shift + i) pour plus de détails."
-validatingFileIntegrity = "Vérification de l'intégrité des fichiers.."
+validatingFileIntegrity = "Vérification..."
 errorDuringFileVerificationTitle = "Erreur lors de la vérification des fichiers"
-downloadingFiles = "Téléchargement des fichiers.."
+downloadingFiles = "Téléchargement..."
 errorDuringFileDownloadTitle = "Erreur lors du téléchargement des fichiers"
-preparingToLaunch = "Préparation du lancement.."
-launchingGame = "Lancement du jeu.."
+preparingToLaunch = "Préparation..."
+launchingGame = "Lancement..."
 launchWrapperNotDownloaded = "Le fichier principal, LaunchWrapper, n'a pas pu être téléchargé correctement. Par conséquent, le jeu ne peut pas être lancé.<br><br>Pour résoudre ce problème, désactivez temporairement votre antivirus et relancez le jeu.<br><br>Si vous avez le temps, veuillez <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">signaler le problème</a> et indiquez-nous quel antivirus vous utilisez. Nous le contacterons afin d'essayer de résoudre le problème."
-doneEnjoyServer = "Terminé. Profitez du serveur !"
+doneEnjoyServer = "Terminé !"
 checkConsoleForDetails = "Veuillez consulter la console (CTRL + Shift + i) pour plus de détails."
 
 [js.landing.news]
 checking = "Vérification des actualités"
 
 [js.landing.discord]
-loading = "Chargement du jeu.."
-joining = "Joue sur le serveur moddé des mies"
-joined = "Joue sur le serveur moddé des mies"
+loading = "Lance le jeu pour acceder au serveur moddé des mies..."
+joining = "Se connecte au serveur moddé des mies..."
+joined = "Joue sur le serveur moddé des mies !"
 
 [js.overlay]
 dismiss = "Fermer"
@@ -282,11 +282,11 @@ releaseNotesFailed = "Impossible de charger les notes de version."
 [js.settings.updates]
 newReleaseTitle = "Nouvelle version disponible"
 newPreReleaseTitle = "Nouvelle version préliminaire disponible"
-downloadingButton = "Téléchargement.."
+downloadingButton = "Téléchargement..."
 downloadButton = 'Télécharger depuis GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Fermez le launcher et exécutez le dmg pour effectuer la mise à jour.</span>'
 latestVersionTitle = "Vous utilisez la dernière version"
 checkForUpdatesButton = "Rechercher des mises à jour"
-checkingForUpdatesButton = "Recherche de mises à jour.."
+checkingForUpdatesButton = "Recherche de mises à jour..."
 
 [js.settings.msftLogin]
 errorTitle = "Échec de la connexion Microsoft"
